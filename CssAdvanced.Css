@@ -51,10 +51,10 @@ main{
     margin-bottom: 30px;
 }
 h1{
-    font-size: 2.125rem;
+    font-size: 25px;
     color: #00b39b;
     font-family: Work Sans, Arial, sans-serif;
-    flex-wrap: wrap;
+    
 }
 .text{
     margin: 20px;
@@ -129,8 +129,9 @@ select{
     justify-content: center;
     list-style-type: none;
 }
-h1{
+.h1text{
     max-width: 250px;
+    color: #00b39b;
     font-family: Work Sans, Arial, sans-serif;
     size: 16px;
 }
@@ -210,14 +211,19 @@ option{
     margin-right: 0px;
     background-color: rgb(195, 245, 228);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 40px;
     width: auto;
+    gap: 100px;
+    padding-left: 270px;
+    padding-right: 280px;
 }
 
 .h2part2{
     color: #00b39b;
     font-family: Roboto, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .ppart2{
@@ -228,9 +234,42 @@ option{
 .littlebox{
     padding: 15px;
     background-color: white;
-    min-width: 100px;
-    min-height: 100px;
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 250px;
     row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.littleboxcontainer{
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.first2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    row-gap: 15px;
+}
+.second2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    row-gap: 15px;
+}
+
+.part3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1part3{
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    size: 16px;
 }
